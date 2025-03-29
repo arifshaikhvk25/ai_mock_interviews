@@ -99,7 +99,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
       }
       // console.log("front");
     } catch (error) {
-      console.log(error, "front error");
+      console.log(error, "error");
       toast.error(`There was an error: ${error}`);
     }
   }
